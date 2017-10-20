@@ -1,4 +1,4 @@
-# Text to speech and translation demo
+# Text to speech and translation [demo](https://travelingtechguy.github.io/speech/)
 
 This project demonstrates using a browser's [`SpeechSynthesis`](https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesis), as well as using the Google Translate API to try different languages. For best results, use in a latest Google Chrome, as it has voices that support multiple languages.
 
