@@ -51,7 +51,6 @@ class App extends Component {
     let msg = encodeURI(textbox.value);
     let url = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=${language}&dt=t&q=${msg}`;
     try {
-      // document.getElementById('message').value = await translate(msg, {to: language});
       let response = await fetch(url);
       let json = await response.json();
       textbox.value = json[0][0][0];
